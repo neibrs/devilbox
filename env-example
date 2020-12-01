@@ -96,7 +96,7 @@ LOCAL_LISTEN_ADDR=
 ###   TLD_SUFFIX=local
 ### Makes your project available under xxxx.local
 ###
-TLD_SUFFIX=loc
+TLD_SUFFIX=ds.com
 
 
 ###
@@ -130,14 +130,14 @@ EXTRA_HOSTS=
 ###
 ### Type `id` on the terminal to find out your values
 ###
-NEW_UID=1000
-NEW_GID=1000
+NEW_UID=501
+NEW_GID=20
 
 
 ###
 ### Timezone for PHP Docker container (system and php.ini)
 ###
-TIMEZONE=UTC
+TIMEZONE=Asia/Shanghai
 
 
 
@@ -451,7 +451,7 @@ MONGO_SERVER=4.4
 ###
 ### MOUNT_OPTIONS=,z
 ###
-MOUNT_OPTIONS=
+MOUNT_OPTIONS=,cached
 
 
 ###
@@ -550,8 +550,8 @@ PHP_MAIL_CATCH_ALL=2
 ###
 ### Expose HTTPD Port to Host
 ###
-HOST_PORT_HTTPD=80
-HOST_PORT_HTTPD_SSL=443
+HOST_PORT_HTTPD=85
+HOST_PORT_HTTPD_SSL=543
 
 
 ###
@@ -568,7 +568,7 @@ HOST_PORT_HTTPD_SSL=443
 ###   * ssl:   Only serve HTTPS
 ###   * plain: Only serve HTTP
 ###
-HTTPD_VHOST_SSL_TYPE=both
+HTTPD_VHOST_SSL_TYPE=redir
 
 
 ###
@@ -635,7 +635,7 @@ HTTPD_NGINX_WORKER_CONNECTIONS=1024
 ### the MySQL root user password will not actually be changed and the Devilbox intranet
 ### won't be able to connect to the MySQL service.
 ###
-MYSQL_ROOT_PASSWORD=
+MYSQL_ROOT_PASSWORD=root
 
 
 ###
@@ -747,7 +747,7 @@ HOST_PORT_MONGO=27017
 ###
 ### Expose Bind Port to Host
 ###
-HOST_PORT_BIND=1053
+HOST_PORT_BIND=53
 
 
 ###
@@ -786,7 +786,7 @@ BIND_MAX_CACHE_TIME=
 ###
 ### 1: Yes
 ### 0: No
-BIND_LOG_DNS_QUERIES=0
+BIND_LOG_DNS_QUERIES=1
 
 
 
