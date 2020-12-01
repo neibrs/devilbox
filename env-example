@@ -635,7 +635,7 @@ HTTPD_NGINX_WORKER_CONNECTIONS=1024
 ### the MySQL root user password will not actually be changed and the Devilbox intranet
 ### won't be able to connect to the MySQL service.
 ###
-MYSQL_ROOT_PASSWORD=root
+MYSQL_ROOT_PASSWORD=
 
 
 ###
