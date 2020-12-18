@@ -96,7 +96,7 @@ LOCAL_LISTEN_ADDR=
 ###   TLD_SUFFIX=local
 ### Makes your project available under xxxx.local
 ###
-TLD_SUFFIX=loc
+TLD_SUFFIX=ds.com
 
 
 ###
@@ -451,7 +451,11 @@ MONGO_SERVER=4.4
 ###
 ### MOUNT_OPTIONS=,z
 ###
+<<<<<<< HEAD
 MOUNT_OPTIONS=,z
+=======
+MOUNT_OPTIONS=,cached
+>>>>>>> f6e154d5e571359bc6142817673ce891d1b29ec1
 
 
 ###
@@ -568,7 +572,7 @@ HOST_PORT_HTTPD_SSL=443
 ###   * ssl:   Only serve HTTPS
 ###   * plain: Only serve HTTP
 ###
-HTTPD_VHOST_SSL_TYPE=both
+HTTPD_VHOST_SSL_TYPE=redir
 
 
 ###
@@ -747,7 +751,7 @@ HOST_PORT_MONGO=27017
 ###
 ### Expose Bind Port to Host
 ###
-HOST_PORT_BIND=1053
+HOST_PORT_BIND=53
 
 
 ###
@@ -786,7 +790,7 @@ BIND_MAX_CACHE_TIME=
 ###
 ### 1: Yes
 ### 0: No
-BIND_LOG_DNS_QUERIES=0
+BIND_LOG_DNS_QUERIES=1
 
 
 
