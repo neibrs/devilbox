@@ -130,14 +130,14 @@ EXTRA_HOSTS=
 ###
 ### Type `id` on the terminal to find out your values
 ###
-NEW_UID=1000
-NEW_GID=1000
+NEW_UID=500
+NEW_GID=500
 
 
 ###
 ### Timezone for PHP Docker container (system and php.ini)
 ###
-TIMEZONE=UTC
+TIMEZONE=Asia/Shanghai
 
 
 
@@ -451,7 +451,7 @@ MONGO_SERVER=4.4
 ###
 ### MOUNT_OPTIONS=,z
 ###
-MOUNT_OPTIONS=
+MOUNT_OPTIONS=,z
 
 
 ###
@@ -512,7 +512,7 @@ PHP_MODULES_ENABLE=
 ###
 ### PHP_MODULES_DISABLE=xdebug,imagick,swoole
 ###
-PHP_MODULES_DISABLE=oci8,PDO_OCI,pdo_sqlsrv,sqlsrv,rdkafka,swoole
+PHP_MODULES_DISABLE=xdebug,oci8,PDO_OCI,pdo_sqlsrv,sqlsrv,rdkafka,swoole
 
 
 ###
